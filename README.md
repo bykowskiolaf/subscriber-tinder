@@ -6,7 +6,10 @@
 
 
 This is a work-in-progress app for cleaning up channels you're subscribed to on youtube using the YouTube data API v3 and oAuth2.
-
+## Prerequisites 
+* Google cloud project with YouTube data API enabled.
+* OAuth 2.0 Client for a web application.
+* A working node.js and npm install.
 ## Run Locally
 
 1. Clone the project.
