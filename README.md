@@ -9,25 +9,27 @@ This is a work-in-progress app for cleaning up channels you're subscribed to on 
 
 ## Run Locally
 
-Clone the project
+1. Clone the project.
 
 ```bash
   git clone https://github.com/bykowskiolaf/subscriber-tinder.git
 ```
 
-Go to the project directory
+2. Go to the project directory.
 
 ```bash
   cd subscriber-tinder
 ```
 
-Install dependencies
+3. Install dependencies.
 
 ```bash
   npm install
 ```
 
-Start the server
+4. Edit the .env config with your client id and secret.
+
+5. Start the server.
 
 ```bash
   npm run start
