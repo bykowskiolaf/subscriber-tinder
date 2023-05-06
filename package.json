@@ -4,7 +4,8 @@
   "description": "An app to manage your youtube subscribers list using the youtube API.",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon ./src/index.ts"
+    "start:dev": "nodemon ./src/index.ts",
+    "start": "nodemon ./src/index.ts"
   },
   "repository": {
     "type": "git",
