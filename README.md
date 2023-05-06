@@ -1,7 +1,7 @@
 # Subscriber Tinder
 
 
-![File amount](https://img.shields.io/github/directory-file-count/bykowskiolaf/subscriber-tinder?style=for-the-badge) ![Last commit](https://img.shields.io/github/last-commit/bykowskiolaf/subscriber-tinder?style=for-the-badge) [![MIT License](https://img.shields.io/github/license/bykowskiolaf/subscriber-tinder?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+![File amount](https://img.shields.io/github/directory-file-count/bykowskiolaf/subscriber-tinder?style=for-the-badge) ![Last commit](https://img.shields.io/github/last-commit/bykowskiolaf/subscriber-tinder?style=for-the-badge) [![MIT License]()](https://choosealicense.com/licenses/mit/)
 
 
 
