@@ -1,7 +1,7 @@
 import { config } from "dotenv";
 config();
 import express from "express";
-import authRoutes from "./routes/auth";
+import authRoutes from "../routes/auth";
 import passport from "passport";
 
 require('./strategies/google');
