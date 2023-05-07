@@ -5,32 +5,38 @@
 
 
 
-This is a work-in-progress app for cleaning up channels you're subscribed to on youtube using the YouTube data API v3 and oAuth2.
+This is a work-in-progress app for cleaning up channels you're subscribed to on youtube using the YouTube data API v3.
 ## Prerequisites 
 * Google cloud project with YouTube data API enabled.
 * OAuth 2.0 Client for a web application.
 * A working node.js and npm install.
 ## Run Locally
 
-1. Clone the project.
+1. Clone the project:
 
 ```bash
   git clone https://github.com/bykowskiolaf/subscriber-tinder.git
 ```
 
-2. Go to the project directory.
+2. Go to the project directory:
 
 ```bash
   cd subscriber-tinder
 ```
 
-3. Install dependencies.
+3. Install dependencies:
 
 ```bash
   npm install
 ```
 
 4. Edit the .env config with your client id and secret.
+
+5. Build the neccessary tailwind files using:
+
+```bash
+  npm run build-css
+```
 
 5. Start the server.
 
