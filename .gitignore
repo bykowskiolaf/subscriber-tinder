@@ -163,3 +163,4 @@ vscode/tasks.json
 
 # Manually added files 
 .env
+public/css/styles.css
