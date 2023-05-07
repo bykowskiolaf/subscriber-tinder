@@ -5,7 +5,6 @@ import {
   VerifyCallback,
   Strategy as GoogleStrategy,
 } from "passport-google-oauth20";
-var session = require('express-session');
 
 passport.use(
   new GoogleStrategy(
@@ -21,8 +20,11 @@ passport.use(
       profile: Profile,
       done: VerifyCallback,
     ) => {
-        console.log("accessToken", accessToken);
-        done(null, "kahjfgkajgsf");
+        console.debug(profile._json.email);
+        done(
+          null, 
+          //profile,
+        );
     }
   )
 );
