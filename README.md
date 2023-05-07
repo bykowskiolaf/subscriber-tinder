@@ -41,5 +41,5 @@ This is a work-in-progress app for cleaning up channels you're subscribed to on 
 6. Start the server.
 
 ```bash
-  npm run start
+  npm run start:dev
 ```
