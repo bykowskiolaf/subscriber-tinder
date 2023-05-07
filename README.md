@@ -38,7 +38,7 @@ This is a work-in-progress app for cleaning up channels you're subscribed to on 
   npm run build-css
 ```
 
-5. Start the server.
+6. Start the server.
 
 ```bash
   npm run start
