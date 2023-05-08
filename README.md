@@ -30,7 +30,7 @@ This is a work-in-progress app for cleaning up channels you're subscribed to on 
   npm install
 ```
 
-4. Edit the .env config with your client id and secret.
+4. Edit the .env config with your client id, secret, redirect URI and mongoDB link.
 
 5. Build the neccessary tailwind files using:
 
