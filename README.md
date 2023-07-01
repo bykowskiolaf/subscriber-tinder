@@ -12,19 +12,13 @@ This is a work-in-progress app for cleaning up channels you're subscribed to on 
 1. Clone the project:
 
 ```bash
-	git clone https://github.com/bykowskiolaf/subscriber-tinder.git
+	git clone --recurse-submodules https://github.com/bykowskiolaf/subscriber-tinder.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
 	cd subscriber-tinder
-```
-
-3. Initialize submodules:
-
-```bash
-	git submodule init && git submodule update --init --recursive
 ```
 
 4. Navigate to st-frontend & st-backend directory.
@@ -35,4 +29,4 @@ This is a work-in-progress app for cleaning up channels you're subscribed to on 
 	npm install
 ```
 
-6. Edit the .env config with your client id, secret, redirect URI and mongoDB link for authentication in st-backend/config/.env.
+6. Edit the st-backend/config/.env config with your client id, secret, redirect URI and mongoDB link for authentication.
